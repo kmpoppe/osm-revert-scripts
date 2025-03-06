@@ -61,7 +61,7 @@ Usage: $0 [flags] comment
 flags:
    --conflict-details   when revert fails due to version conflict, show other user
    --override           override subsequent changes in case of version conflict
-   --progress           report on completion percentage
+   --no-progress        report on completion percentage
    --type=t             select revert type (default is top_down, otherwise bottom_up)
 EOF
     exit 0;
